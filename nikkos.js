@@ -5,7 +5,7 @@ function rand(num) {
     return randInt
 }
 
-rand(57);
+rand(26);
 
 //Generates a random number between 0 and an integer of 
 // your choosing.
