@@ -1,0 +1,14 @@
+.square {
+  background-color: teal;
+  float: left;
+  width: 20%;
+  padding-bottom: 20%;
+  margin: 0.5%;
+}
+
+.number {
+  position:absolute;
+  font-weight: bold;
+  font-size: 3em;
+  font-family: monospace;
+}
