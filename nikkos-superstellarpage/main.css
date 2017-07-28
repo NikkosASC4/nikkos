@@ -1,0 +1,33 @@
+body {
+   background-image: url("http://i.imgur.com/VkSk5P4.png");
+   background-position: center;
+   background-size: cover;
+}
+
+img {
+   padding: 20px;
+}
+
+p {
+    padding: 25px;
+    font-size: 18px;
+    font-family: verdana;
+}
+
+
+.description{
+    background: white;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.divider1{
+    padding: 130px;
+    font-size: 40px;
+    font-family: verdana;
+    color: white;
+    text-shadow: 2px 2px black;
+
+}
+

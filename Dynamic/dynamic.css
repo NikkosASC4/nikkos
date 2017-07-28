@@ -1,0 +1,22 @@
+body {
+    background: url("http://www.hdwallpaper.nu/wp-content/uploads/2016/05/6qGy6j7.png");
+    background-size: cover;
+    text-align: center;
+    
+
+}
+
+
+.buybutton{
+    font-family: helvetica;
+    position: relative;
+    height: 800px;
+}
+
+button {
+    position: absolute;
+    right: 570px;
+    bottom: 250px;
+}
+
+
