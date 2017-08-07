@@ -1,0 +1,19 @@
+body {
+    background-color:yellowgreen;
+    font-size: 50px;
+    text-align: center;
+}
+
+.websitetext {
+    text-align: center;
+    font-size: 28px;
+}
+
+.mybutton {
+    text-align: center;
+}
+
+img {
+    width: 500px;
+}
+

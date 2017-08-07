@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="main.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="app.js"> </script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.11/p5.js"> </script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.11/addons/p5.dom.js"></script>
+        <script src="https://apis.google.com/js/platform.js" async defer></script>
+        <meta name="google-signin-client_id" content="934817145569-2e08gc80ej17lneac7jabcqn32a53qnn.apps.googleusercontent.com">
+    </head>
+    <body>
+        <div class="websitetext">
+            <h1> Hey! </h1>
+            <p> Feeling down today?</p>
+            <p> We'll generate a random happy quote and cute picture of a dog or cat for you!</p>
+        </div>
+        <div class="signs">
+    <div class="signs">
+        <div class="g-signin2" data-onsuccess="onSignIn"></div>
+        <a href="#" class="signOut" onclick="onSignOut();">Sign out</a>
+    </div>
+    <script type = "text/javascript">
+        function pic1()
+        {
+            document.getElementById("img").src = "http://i2.kym-cdn.com/photos/images/facebook/001/232/748/392";
+        }
+    </script>
+    <div class="mybutton">
+    <img src="http://cdn2-www.dogtime.com/assets/uploads/2011/03/cute-dog-names.jpg" id="imgClickAndChange" onclick="changeImage()" usemap="#SUB15" />
+    </div>
+    </body>
+</html>
